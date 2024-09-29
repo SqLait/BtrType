@@ -1,6 +1,5 @@
 #define BTR_TYPES
 #ifdef BTR_TYPES
-#include <cstdint>
 #include <stdint.h>
 #include <stdbool.h>
 

@@ -1,6 +1,8 @@
 #define BTR_VECTORS
 #ifdef BTR_VECTORS
 #include "btrtypes.h"
+
+// Basic Vectors
 typedef struct {
   f32 x;
 } Vector1;

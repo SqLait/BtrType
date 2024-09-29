@@ -1,0 +1,24 @@
+#+TITLE: BtrTypes
+
+A collection of header files to improve C types. 
+It implements some better naming and abstraction for types.
+
+* Code sample:
+
+  Writing C or C++ you will use these types most of the time:
+
+  #+BEGIN_SRC c
+  
+  float x = 32f;
+  int y = 32;
+  char m = 'm';
+  char* mm = "mm\0";
+  double xx = 64f;
+
+  #+END_SRC
+
+  This lib gives you more consice types like those of rust. Plus some basic abstraction like vectors, color and more.
+
+* IMPORTANT:
+
+  This is not going to be a very large project. Rather it is ment more for me while creating C programs
