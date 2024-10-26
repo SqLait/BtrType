@@ -24,9 +24,12 @@ typedef char c8;
 typedef char* str;
 typedef char* string;
 
-//Long types
+// Long types
 typedef long l32;
 typedef unsigned long ul32;
 typedef long long l64;
 typedef unsigned long long ul64;
+
+// Size types
+typedef size_t usize;
 #endif

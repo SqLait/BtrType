@@ -5,31 +5,23 @@
 // Basic Vectors
 typedef struct {
   f32 x;
-} Vector1;
+} Vec1;
 
 typedef struct {
   f32 x;
   f32 y;
-} Vector2;
-
-typedef struct {
-  f32 x;
-  f32 y;
-  f32 z;
-} Vector3;
+} Vec2;
 
 typedef struct {
   f32 x;
   f32 y;
   f32 z;
-  f32 w;
-} Vector4;
+} Vec3;
 
 typedef struct {
   f32 x;
   f32 y;
   f32 z;
   f32 w;
-  f32 v;
-} Vector5;
+} Vec4;
 #endif
