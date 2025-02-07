@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/deanr/Projects/C-Projects/BtrType/build",
+  "command": "/usr/bin/cc   -std=c17 -o CMakeFiles/main.dir/btrtypes/Dict.c.o -c /home/deanr/Projects/C-Projects/BtrType/btrtypes/Dict.c",
+  "file": "/home/deanr/Projects/C-Projects/BtrType/btrtypes/Dict.c",
+  "output": "CMakeFiles/main.dir/btrtypes/Dict.c.o"
+}
+]

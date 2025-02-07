@@ -38,6 +38,9 @@ typedef size_t usize;
 // Simple C renames
 #define null NULL;
 
+// Functions
+#define typeoff(var, type) _Generic((var), type: 1, default: 0)
+
 typedef struct {
     f32 x;
     f32 y;

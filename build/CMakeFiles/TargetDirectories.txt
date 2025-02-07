@@ -1,0 +1,3 @@
+/home/deanr/Projects/C-Projects/BtrType/build/CMakeFiles/main.dir
+/home/deanr/Projects/C-Projects/BtrType/build/CMakeFiles/edit_cache.dir
+/home/deanr/Projects/C-Projects/BtrType/build/CMakeFiles/rebuild_cache.dir
