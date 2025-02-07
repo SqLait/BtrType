@@ -1,5 +1,7 @@
-#define BTR_TYPES
-#ifdef BTR_TYPES
+#ifndef TYPES_H  // Use a unique name, usually with "_H" to indicate a header guard
+#define TYPES_H
+
+#include <stddef.h>
 #include <stdint.h>
 #include <stdbool.h>
 
@@ -32,4 +34,38 @@ typedef unsigned long long ul64;
 
 // Size types
 typedef size_t usize;
-#endif
+
+// Simple C renames
+#define null NULL;
+
+typedef struct {
+    f32 x;
+    f32 y;
+} Vec2;
+
+typedef struct {
+    f32 x;
+    f32 y;
+    f32 z;
+} Vec3;
+
+typedef struct {
+    f32 x;
+    f32 y;
+    f32 z;
+    f32 w;
+} Vec4;
+
+typedef struct {
+    i32 x;
+    i32 y;
+} Point;
+
+typedef struct {
+    i32 x;
+    i32 y;
+    i32 z;
+} Point3D;
+
+#endif // TYPES_H
+
